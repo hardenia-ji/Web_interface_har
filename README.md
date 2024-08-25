@@ -8,6 +8,8 @@ Explanations, Not only high accuracy can be achieved but insights can also be ga
 The web application integration further enhances the usability and accessibility of this technology.
 This project establishes a solid foundation for further development and exploration in the field of HAR using deep learning and explainable AI.
 
+
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -195,3 +197,30 @@ model.save('op_lstm3.h5')
 #Then run the following cell
 from IPython.display import FileLink 
 FileLink(r'/kaggle/working/op_lstm3.h5')
+
+Data Collection:
+A Application named ‘Sensor Logger’[15] is used to collect the data from mobile 
+sensors
+Sensor Logger Overview:
+•Sensor Logger is a free, cross-platform data logger designed to record readings from 
+various motion-related sensors found in smartphones.
+•It supports sensors like Accelerometer, Gyroscope, Magnetometer, Barometer, GPS,
+
+Microphone, Camera, Pedometer, Heart Rate (with the iOS watch app), and more.
+•The app allows exporting recorded data in various formats including .zip, .csv, .json, 
+.kml, and .sqlite for further analysis.
+•Sensor Logger supports live data streaming via HTTP Push to a specified URL.
+•The streamed data is in JSON format and contains sensor readings with timestamps.
+•Setting up a server to receive and process live data is necessary for real-time 
+visualization or analysis
+
+![sensorlogger_app](https://github.com/user-attachments/assets/cc385676-5d63-45fc-ad5f-7d4f860f6471)
+
+Web Interface :
+
+![webpic](https://github.com/user-attachments/assets/06b059de-4ee8-4843-bfff-6e8529c725d8)
+
+Result :
+
+![act_res](https://github.com/user-attachments/assets/7998e2cc-740f-4ebb-ae1e-515331ee0083)
+
